@@ -31,6 +31,7 @@ import Presentation from "layouts/pages/home";
 // Material Kit 2 React routes
 import routes from "routes";
 import Blogging from "layouts/sections/navigation/blogging";
+import SearchEngineMarketing from "layouts/sections/navigation/search-engine-marketing";
 
 export default function App() {
   const { pathname } = useLocation();
@@ -60,6 +61,7 @@ export default function App() {
       <Routes>
         {getRoutes(routes)}
         <Route path="/" element={<Presentation />} />
+        <Route path="/sem" element={<SearchEngineMarketing />} />
         <Route path="/checkblog" element={<Blogging />} />
         {/* Add a catch-all route for unknown paths */}
         <Route path="*" element={<Navigate to="/" />} />

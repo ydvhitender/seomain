@@ -56,7 +56,7 @@ import Home from "layouts/pages/home";
 // import Features from "layouts/sections/page-sections/featuers";
 import Blogging from "layouts/sections/navigation/blogging";
 import Copywriting from "layouts/sections/navigation/copywriting";
-import SearchEngineMarketing from "layouts/sections/navigation/search-engine-marketing";
+// import SearchEngineMarketing from "layouts/sections/navigation/search-engine-marketing";
 import FreeWebsiteAudit from "layouts/sections/input-areas/free-website-audit";
 import MobileAppMarketing from "layouts/sections/input-areas/mobile-app-marketing";
 // import Alerts from "layouts/sections/attention-catchers/alerts";
@@ -122,12 +122,12 @@ const routes = [
       //     },
       //   ],
       // },
-      {
-        name: "SEM",
-        description: "Search Engine Marketing",
-        route: "/search-engine-marketing",
-        component: <SearchEngineMarketing />,
-      },
+      // {
+      //   name: "SEM",
+      //   description: "Search Engine Marketing",
+      //   route: "/search-engine-marketing",
+      //   component: <SearchEngineMarketing />,
+      // },
       {
         name: "SMM",
         description: "Social Media Marketing",
