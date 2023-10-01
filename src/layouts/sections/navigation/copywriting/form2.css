@@ -1,0 +1,40 @@
+form {
+  max-width: 440px;
+  margin: 20px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+label {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+button {
+  padding: 10px 30px;
+  background-color: #3690ed;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 70px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0f63b8;
+}
